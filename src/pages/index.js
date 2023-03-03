@@ -20,8 +20,7 @@ const useFetchUser = () =>
 
 
 export default function UserSWR() {
-  const { isLoading } = useFetchUser();
-  console.log("🚀 ~ file: index.js:24 ~ UserSWR ~ isLoading:", isLoading)
+  useFetchUser();
 
   return <div>Open React Profiler and check each time SWRTest rendered</div>;
 }
