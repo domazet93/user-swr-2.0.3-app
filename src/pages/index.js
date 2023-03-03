@@ -21,6 +21,7 @@ const useFetchUser = () =>
 
 export default function UserSWR() {
   useFetchUser();
-
+  console.log('render UserSWR');
+  
   return <div>Open React Profiler and check each time SWRTest rendered</div>;
 }
